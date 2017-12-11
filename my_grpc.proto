@@ -1,0 +1,11 @@
+syntax= "proto3";
+
+message Number{
+	float value=1;
+}
+
+
+service function_grpc {
+	rpc getCarats returns (Number) {}
+
+}

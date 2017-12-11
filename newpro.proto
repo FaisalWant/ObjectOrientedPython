@@ -1,0 +1,12 @@
+
+syntax= "proto3";
+
+service displayInfo{
+rpc GetFeature(Number) returns (Number){}	
+}
+
+message Number{
+	
+ string value=1;
+}
+
