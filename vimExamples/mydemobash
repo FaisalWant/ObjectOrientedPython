@@ -1,0 +1,12 @@
+getDate
+
+name="Derek"
+demLocal(){
+local name= "Paul"
+return
+
+}
+demLocal
+
+echo "$name"
+

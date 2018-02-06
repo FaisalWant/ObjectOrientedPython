@@ -27,7 +27,7 @@ def main_task():
 
 	lock= threading.Lock()
 	# creating threads
-
+    # lock in passed as target function argument
 	t1= threading.Thread(target= thread_task,args=(lock,))
 	t2= threading.Thread(target=thread_task,args=(lock,))
 

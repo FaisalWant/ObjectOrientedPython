@@ -76,9 +76,9 @@ def main():
 	print(mammal1.blooded)
 	print(mammal1.nurseYoung)
 	print(mammal1)
-    reptile1=Reptile()
-    print(reptile.birthType)
-    print(reptile1)
+	reptile1=Reptile()
+	print(reptile.birthType)
+	print(reptile1)
 
 
 
