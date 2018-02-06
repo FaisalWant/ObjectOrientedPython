@@ -1,2 +1,7 @@
 hello my name is faisal afzal 
 currently testing whether the git options are working correctly
+
+
+# this thing is the current addition to the file that
+# i have worked on 
+# 
