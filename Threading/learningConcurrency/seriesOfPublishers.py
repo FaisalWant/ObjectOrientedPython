@@ -15,3 +15,9 @@ threads=[]
 for i in range(4):
 	thread= threading.Thread(target= myPublisher,args=(myQueue,))
 	thread.start()
+	threads.append(thread)
+
+
+for thread in threads:
+	thread.join()
+	

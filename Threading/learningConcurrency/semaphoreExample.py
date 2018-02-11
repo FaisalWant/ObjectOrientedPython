@@ -14,7 +14,8 @@ class TicketSeller(threading.Thread):
 		while running:
 			self.randomDelay()
 			self.sem.acquire()
-			if(tickersAvailable <=0 				running=False
+			if(tickersAvailable <=0 				
+				running=False
 
 			else:
 				self.ticketsSold=self.ticketsSold+1

@@ -25,7 +25,7 @@ import re
 # for i in someAnimals:
 # 	print(i)
 
-animalStr= "Cat rat mat pat"
-someAnimals= re.findall("[^Cr]at",animalStr)
-for i in someAnimals:
- 	print(i)
+# animalStr= "Cat rat mat pat"
+# someAnimals= re.findall("[^Cr]at",animalStr)
+# for i in someAnimals:
+#  	print(i)
