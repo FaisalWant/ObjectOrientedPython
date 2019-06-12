@@ -5,9 +5,10 @@
 # All functions return some value
 # Even if that value is None
 # No return statement or just return implicitly returns None
-
+#  -------------------------   
 # |Returning multiple values|
-
+#  -------------------------
+# 
 # You can use a tuple! In some cases, use a namedtuple
 # return value1, value2, value3
 
@@ -25,9 +26,9 @@
 #                 # prints 2, 3, 5
 
 
-
-# DEFAULT/ NAMED PARAMETERS:
-#-----------------------------
+#  ---------------------------
+# | DEFAULT/ NAMED PARAMETERS:
+#  ---------------------------
 # Usually used to provide "settings" for the function.
 
 # ask_yn(prompt, retries=4, complaint='...')
@@ -55,7 +56,7 @@
 
 # Variadic Positional Arguments:
 # -------------------------------
-# A parameter of form *args captures excess positional args
+# A parameter of form " *args "  captures excess positional args
 # These excess arguments are bundled into an args tuple
 # Why?
 # Call functions with any number of positional arguments
@@ -69,6 +70,7 @@
 # product(3, 5, scale=10)                     # => 150
 
 # # product accepts any number of arguments
+
 # def product(*nums, scale=1):
 # 	p = scale
 #     for n in nums:
@@ -87,23 +89,26 @@
 # print(product(*primes)) # equiv. to product(2, 3, 5, …)
 
 
-
-# VARIADIC KEYWORD ARGUMENTS:
+#  ----------------------------------------
+# |VARIADIC KEYWORD ARGUMENTS:             |  
 # -----------------------------------------
 # A parameter of the form **kwargs captures all excess keyword
 # arguments
 # These excess arguments are bundled into a kwargs dict
 # Why?
 
-# Allow arbitrary named parameters, usually for configuration
+# Allow arbitrary named parameters, *** usually for configuration ***
 # Similar: capture all arguments to forward to another handler
 # Used in subclasses, proxies, and decorators
 
 # def authorize(quote, **speaker_info):
+
 # print(">", quote)
+
 # print("-" * (len(quote) + 2))
-# for k, v in speaker_info.items():
-# print(k, v, sep=': ')
+
+# for k, v in speaker_info.items():      ## accessing the variadic positional arguments
+#   print(k, v, sep=': ')
 
 # |****************************|
 # |speaker_info = {            |  
@@ -113,7 +118,6 @@
 # |'playwright': "Shakespeare" |
 # |}                           |
 # ******************************
-
 
 
 

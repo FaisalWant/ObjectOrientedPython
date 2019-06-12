@@ -1,0 +1,23 @@
+{% if message %}
+<ul class ="messages">
+{% for message in messages %}
+<li {% if message.tags %} class= "{{ message.tags }}" {% endif %}>
+{{ message }} </li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+<h1> Delete {{ object.title }} </h1>
+
+
+<form method='POST' action ='.'> {% csrf_token %}
+
+Are u sure u want to delete this post
+
+
+<input type= 'submit' value= 'Yes'>
+
+<a href='/blog/{{ object.id }}'>Cancel</a>
+</form>

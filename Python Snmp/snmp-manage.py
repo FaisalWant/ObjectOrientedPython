@@ -20,11 +20,30 @@ class SnmpManager:
 		oid_tuple=tuple([int(i) for i in oid.split('.')])
 		self.systems[system]['checks'][id]= {'description': 'descr',
 											  'oid':oid_tuple,
-											  }
+										}
+# implementing the SNMP Read functionality
+#-----------------------------------------
+# we will iterate through all the systems in the list
+# and for each system we iterate through all defined checks.
+# For each check we are going to  perform the SNMP GET command
+# and store the result in the same datastructure
+	def query_all_systems(self):
+		cg= cmdgen.CommandGenerator()
+		for system in self.systems.values():
+			comm_data= cmdgen.CommunityData('my-manager',system['communityro'])
+			transport= cmdgen.UdpTransportTarget((system['address'], system['port']))
+			for check in system['checks'].values():
+				oid= check['oid']
+				errInd, errStatus, errIndx,result= cg.getCmd(comm_data, transport, oid)
+				if not errInd and not errStatus:
+					print("%s %s -> %s " % (system['description'], check['description'], str(result[0][1])))
 
 
 
 
+ 
+
+### driver function:
 
 def main(conf_file=""):
 	if not conf_file:

@@ -1,10 +1,11 @@
 # backtoPython4.
 
 # List Comprehension vs. Map+filter
-# Memory
-# List Comprehensions: buffer all computed results
-# Map/Filter: only compute output elements when asked
-
+# Memory---
+#    ---------------------------------------------------- 
+#  | List Comprehensions: buffer all computed results    |
+#  | Map/Filter: only compute output elements when asked |
+#   ----------------------------------------------------
 # Map:
 # ----------
 # map(fn, iter)
@@ -12,7 +13,7 @@
 
 # [len(s) for s in languages]
 
-# The map() function applies a given to function 
+# The map() function applies a given function 
 # to each item of an iterable and returns 
 # a list of the result
 # e.g:
@@ -21,7 +22,7 @@
 # result = map(calculateSquare, numbers)
 # print(result)
 
-# lambda with map:
+# lambda with map:   lambda ---->>  [Function on Fly]
 # ------------------------
 # numbers = (1, 2, 3, 4)
 # result = map(lambda x: x*x, numbers)
@@ -29,15 +30,18 @@
 
 # FILTER:
 # ----------
-# The filter() method returns an iterator that passed the 
+# The filter() method returns an "iterator" that passed the   [ Filter returns just an itertor ]
 # function check for each element in the iterable
-# same as 
+
+# same as :
+#-------------
 # [element for element in iterable if predicate(element)]
 # e.g
 #  #list of alphabets
 # alphabets = ['a', 'b', 'd', 'e', 'i', 'j', 'o']
 
 # # function that filters vowels
+
 # def filterVowels(alphabet):
 #     vowels = ['a', 'e', 'i', 'o', 'u']
 
@@ -64,8 +68,9 @@
 
 # # Tuples with positive second elements
 # filter(lambda pair: pair[1] > 0, [(4,1), (3, -2), (8,0)]
-
-# ITERABLES:
+# ------------------------
+#    ITERABLES:           |
+# ----------------------
 # ------------------------------
 # # Build an iterator over [1,2,3]
 # it = iter([1,2,3])
@@ -74,16 +79,17 @@
 # next(it) # => 3
 # next(it) # raises StopIteration error
 
-
-# GENERATOR:
 # ------------------------------
+# GENERATOR:                   |
+# ------------------------------
+
 # Return an iterator that generates
 # a stream of values
 
 # E.G:
 # def generate_ints(n):
-# for i in range(n):
-# yield i
+#    for i in range(n):
+#      yield i
 
 # g = generate_ints(3)
 # type(g) # => <class 'generator'>

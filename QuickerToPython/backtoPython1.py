@@ -102,15 +102,15 @@
 # is vs ==
 # True!
 # int != float
-# The is operator checks identity instead of equality
+# The "is" operator checks identity instead of equality
 # when comparing against None or other singletons,
-# always use is None instead of == None
+# always use "is" None instead of "== " None
 
-# is checks if the suitcases are the same
-# == checks if they have the same stuff inside
+# "is" checks if the suitcases are the same
+# "=="" checks if they have the same stuff inside
 
-# Use == when comparing values
-# Use is when comparing identities
+# Use "=="" when comparing values
+# Use "is" when comparing identities
 #****************************************************
 
 # Special characters:
@@ -133,7 +133,7 @@
 # greeting.isalpha()             # => False (due to '!')
 # greeting.lower() 			   # => "hello world! "
 # greeting.title() 			   # => "Hello World! "
-# greeting.strip()               # => "Hello world!"
+# greeting.strip()               # => "Hello world!"   (space got stripped)
 # greeting.strip('! ')           # => "Hello world" (no '!')
 
 
@@ -157,6 +157,7 @@
 # '{} {}'.format('monty', 'python')      # => 'monty python'
 
 # # Provide values by position or by placeholder
+
 # "{0} can be {1} {0}s".format("strings", "formatted")
 
 # "{name} loves {food}".format(name="Sam", food="plums")
@@ -199,9 +200,9 @@
 # ]
 # f.closed                       # => True
 
-# The with expr as var construct
-# ensures that expr will be entered and exited 
-# regardless of the code block execution
+# | The with expr as var construct                |
+# | ensures that expr will be entered and exited  |
+# | regardless of the code block execution        |
 
 #*********************************************************
 # SCRIPTS, MODULES, IMPORTS
@@ -212,6 +213,9 @@
 # """ File: hello.py """
 # def greet(name):
 # print("Hey {}, I'm Python!".format(name))
+
+
+
 # # Run only if called as a script
 
 # if __name__ == '__main__':

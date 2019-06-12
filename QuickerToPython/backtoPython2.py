@@ -12,7 +12,7 @@
 # Lists:
 # Finite, ordered, mutable
 # sequence of elements
-
+#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 # # Lists can contain elements of different types
 # mixed = [4, 5, "seconds"]
 
@@ -28,6 +28,7 @@
 # x                          # => [['a', 'b', 'c', 'd'], [2, 3, 5, 7, 11]]
 
 # list methods:
+#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 # # Extend list by appending elements from the iterable
 # my_list.extend(iterable)
 
@@ -99,7 +100,7 @@
 # d = {"CS":[106, 107, 110], "MATH": [51, 113]}
 # d["COMPSCI"] # raises KeyError
 # ------------------------------------------
-# |Use get() method to avoid the KeyError|
+# |Use get() method to avoid the KeyError  |
 # ------------------------------------------
 
 
@@ -135,8 +136,10 @@
 
 # for key in d: # equiv. to `for key in d.keys():`
 # print(key)
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 # Tuples :
+#|--------------------|
 # immutable Sequence
 # Store collections of heterogeneous data
 # Tuples can be dictionary keys, but lists cannot
@@ -163,6 +166,7 @@
 # ---------------------------
 # x=5            x=6
 # y=6   want     y=5
+
 # |XOR magic|
 # x= x^y
 # y=x^y
