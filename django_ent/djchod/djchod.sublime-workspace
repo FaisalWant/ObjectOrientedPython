@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"publish",
+				"publish_time"
+			],
+			[
+				"http",
+				"HttpResponseRedirect"
+			],
+			[
+				"success",
+				"success_message"
+			],
+			[
+				"post",
+				"post_model_update_veiw"
+			],
+			[
+				"re",
+				"redirect_somewhere"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect"
+			],
+			[
+				"as",
+				"asmatrix"
+			],
+			[
+				"x",
+				"X"
+			],
+			[
+				"my",
+				"my_datay"
+			],
+			[
+				"df",
+				"df_normx"
+			],
+			[
+				"lat",
+				"lat_1"
+			],
+			[
+				"la",
+				"lat_lon_iter"
+			],
+			[
+				"iterable",
+				"iterable_tail"
+			],
+			[
+				"movies",
+				"movies_skip_rows"
+			],
+			[
+				"excel",
+				"excel_file"
+			],
+			[
+				"end",
+				"end_me1"
+			],
+			[
+				"end_",
+				"end_mth"
+			],
+			[
+				"sta",
+				"sta_yea"
+			],
+			[
+				"sta_",
+				"sta_mth"
+			],
+			[
+				"function",
+				"function_grpc"
+			],
+			[
+				"newpro",
+				"newpro_pb2"
+			],
+			[
+				"sel",
+				"selFold"
+			],
+			[
+				"M",
+				"MYSQL_DATABASE"
+			],
+			[
+				"MY",
+				"MYSQL_ROOT_PASSWORD"
+			],
+			[
+				"url",
+				"url_list"
+			],
+			[
+				"b",
+				"BeautifulSoup"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 76.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 377.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/xander/Documents/first_git_project/django_ent/djchod"
+	],
+	"file_history":
+	[
+		"/home/xander/Documents/first_git_project/django_ent/djmod/djmod/blog/validators.py",
+		"/home/xander/Documents/first_git_project/TCP hacks/tcpclient.py",
+		"/home/xander/Documents/first_git_project/QuickerToPython/backtopython3.py",
+		"/home/xander/Documents/first_git_project/Twitter Data Analysis/GetOldTweets-python/Exporter.py",
+		"/home/xander/Documents/first_git_project/django_ent/djmod/djmod/blog/migrations/__init__.py",
+		"/home/xander/Documents/first_git_project/django_ent/djmod/djmod/djmod/settings.py",
+		"/home/xander/Documents/first_git_project/ReactApp/myreactjs/.gitignore",
+		"/home/xander/Documents/first_git_project/Functional Programming in python/Winter.kml",
+		"/home/xander/Documents/first_git_project/django_ent/djviews/djviews/wsgi.py",
+		"/home/xander/Documents/first_git_project/django_ent/djviews/djviews/settings.py",
+		"/home/xander/Documents/first_git_project/DjangoEcommerce/src/ecommerce/myscripts.cs",
+		"/etc/nginx/sites-available/default",
+		"/etc/nginx/sites-enabled/default",
+		"/home/xander/Desktop/Bedard Dadi.mp4",
+		"/home/xander/Documents/first_git_project/AI ASSIGNMENT/Question1.py",
+		"/home/xander/udemy-dl/cookie.txt",
+		"/home/xander/Documents/first_git_project/ROOTKIT/main.cpp",
+		"/home/xander/Documents/first_git_project/ROOTKIT/faisal.cpp",
+		"/home/xander/Documents/first_git_project/AI ASSIGNMENT/withoutsckit.py",
+		"/home/xander/Documents/first_git_project/AI ASSIGNMENT/zhylagn.py",
+		"/home/xander/Documents/first_git_project/QuickerToPython/backtoPython4.py",
+		"/home/xander/Documents/first_git_project/Twitter Data Analysis/getTwitter.py",
+		"/home/xander/Documents/first_git_project/DjangoEcommerce/src/ecommerce/forms.py",
+		"/home/xander/Documents/first_git_project/ReactApp/myreactjs/src/posts/post_lists.js",
+		"/home/xander/udemy-dl/cook2.txt",
+		"/home/xander/Documents/first_git_project/Functional Programming in python/ParsingWinter.py",
+		"/home/xander/Downloads/amb assignment/linearX.csv",
+		"/home/xander/faisal.c",
+		"/home/xander/Documents/first_git_project/DjangoEcommerce/src/ecommerce/__pycache__/views.py",
+		"/home/xander/Documents/first_git_project/QuickerToPython/backtopython6.py",
+		"/home/xander/Documents/first_git_project/QuickerToPython/backtopython5.py",
+		"/home/xander/Documents/first_git_project/QuickerToPython/backtoPython2.py",
+		"/home/xander/Documents/first_git_project/QuickerToPython/backtoPython1.py",
+		"/home/xander/Documents/first_git_project/ApacheSpark/word_count.text",
+		"/home/xander/Documents/first_git_project/ApacheSpark/WordCount.py",
+		"/home/xander/Documents/first_git_project/oopgame.py",
+		"/home/xander/Documents/first_git_project/multiprocessing.py",
+		"/home/xander/db-on-docker/my.conf",
+		"/home/xander/my_blog_app/blog/blog/settings.py",
+		"/home/xander/Downloads/diamonds.csv",
+		"/home/xander/mynewFolder/Django-Chart/requirements.txt",
+		"/home/xander/myproject/DockerFolder/requirements.txt",
+		"/home/xander/myCprograms/faisal",
+		"/home/xander/myCprograms/a.out",
+		"/home/xander/myCprograms/firstNew.c",
+		"/home/xander/myCprograms/faisal.c",
+		"/home/xander/myCprograms/newFile.c",
+		"/home/xander/db-on-docker/myGrpcDoc/function_grpc.py",
+		"/home/xander/db-on-docker/client.py",
+		"/home/xander/db-on-docker/populateData.py",
+		"/home/xander/db-on-docker/mynewGrpc/mypro_pb2_grpc.py",
+		"/home/xander/db-on-docker/newpro.proto",
+		"/home/xander/db-on-docker/refined.csv",
+		"/home/xander/db-on-docker/updated_test.csv",
+		"/home/xander/Documents/first_git_project/processingbs4.py",
+		"/home/xander/Documents/first_git_project/firstpoolexample.py",
+		"/home/xander/Django-Chart/docker-entrypoint.sh",
+		"/home/xander/mynewFolder/docker-entrypoint.sh",
+		"/home/xander/myproject/DockerFolder/Dockerfile",
+		"/home/xander/Django-Chart/Dockerfile",
+		"/home/xander/mynewFolder/Django-Chart/src/charts/wsgi.py",
+		"/home/xander/Django-Chart/src/charts/wsgi.py",
+		"/home/xander/TakeThisFolder/Dockerfile",
+		"/home/xander/The Medical Subject Headings  Explained.txt",
+		"/home/xander/Django-Chart/requirements.txt",
+		"/home/xander/hello_django_docker/docker-entrypoint.sh",
+		"/home/xander/pythonFiles/medline17n0001.xml",
+		"/home/xander/hello_django_docker/Dockerfile",
+		"/home/xander/hello_django_docker/hello_django/hello_django/urls.py",
+		"/home/xander/hello_django_docker/hello_django/hello_django/wsgi.py",
+		"/home/xander/hello_django_docker/hello_django/hello_django/settings.py",
+		"/home/xander/hello_django_docker/hello_django/manage.py",
+		"/home/xander/hello_django_docker/hello_django/hello/settings.py",
+		"/home/xander/hello_django_docker/hello_django/project_application_1/views.py",
+		"/home/xander/pythonFiles/ClinicalTrialsData3.csv",
+		"/home/xander/hello_django_docker/hello_django/project_application_1/models.py",
+		"/home/xander/hello_django_docker/hello_django/project_application_1/admin.py",
+		"/home/xander/myproject/DockerFolder/myexample/myexample/settings.py",
+		"/home/xander/myproject/DockerFolder/composeexample/settings.py",
+		"/home/xander/pythonFiles/newRecordLinkage.py",
+		"/home/xander/pythonFiles/extractCountry.py",
+		"/home/xander/pythonFiles/deleteme.py",
+		"/home/xander/pythonFiles/timmer.py",
+		"/home/xander/pythonFiles/modifyingrecord.py",
+		"/home/xander/pythonFiles/fuzzy_new.py",
+		"/home/xander/pythonFiles/sublimeFile.py",
+		"/home/xander/pythonFiles/recordingnew.py",
+		"/home/xander/helloworld.py",
+		"/home/helloworl.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 75.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"null",
+			"upstream backend",
+			"yield"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "djchod.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 438.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 333.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 145.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
